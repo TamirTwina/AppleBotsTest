@@ -13,18 +13,10 @@
 		3665DFB91C0DF02500647BB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3665DFB81C0DF02500647BB8 /* Assets.xcassets */; };
 		3665DFBC1C0DF02500647BB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3665DFBA1C0DF02500647BB8 /* LaunchScreen.storyboard */; };
 		3665DFC71C0DF02500647BB8 /* AppleBotsTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3665DFC61C0DF02500647BB8 /* AppleBotsTestTests.swift */; };
-		3665DFD21C0DF02500647BB8 /* AppleBotsTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3665DFD11C0DF02500647BB8 /* AppleBotsTestUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		3665DFC31C0DF02500647BB8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3665DFA61C0DF02500647BB8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3665DFAD1C0DF02500647BB8;
-			remoteInfo = AppleBotsTest;
-		};
-		3665DFCE1C0DF02500647BB8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3665DFA61C0DF02500647BB8 /* Project object */;
 			proxyType = 1;
@@ -44,7 +36,6 @@
 		3665DFC21C0DF02500647BB8 /* AppleBotsTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleBotsTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3665DFC61C0DF02500647BB8 /* AppleBotsTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleBotsTestTests.swift; sourceTree = "<group>"; };
 		3665DFC81C0DF02500647BB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3665DFCD1C0DF02500647BB8 /* AppleBotsTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleBotsTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3665DFD11C0DF02500647BB8 /* AppleBotsTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleBotsTestUITests.swift; sourceTree = "<group>"; };
 		3665DFD31C0DF02500647BB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,13 +49,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		3665DFBF1C0DF02500647BB8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3665DFCA1C0DF02500647BB8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -89,7 +73,6 @@
 			children = (
 				3665DFAE1C0DF02500647BB8 /* AppleBotsTest.app */,
 				3665DFC21C0DF02500647BB8 /* AppleBotsTestTests.xctest */,
-				3665DFCD1C0DF02500647BB8 /* AppleBotsTestUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -163,24 +146,6 @@
 			productReference = 3665DFC21C0DF02500647BB8 /* AppleBotsTestTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3665DFCC1C0DF02500647BB8 /* AppleBotsTestUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3665DFDC1C0DF02500647BB8 /* Build configuration list for PBXNativeTarget "AppleBotsTestUITests" */;
-			buildPhases = (
-				3665DFC91C0DF02500647BB8 /* Sources */,
-				3665DFCA1C0DF02500647BB8 /* Frameworks */,
-				3665DFCB1C0DF02500647BB8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3665DFCF1C0DF02500647BB8 /* PBXTargetDependency */,
-			);
-			name = AppleBotsTestUITests;
-			productName = AppleBotsTestUITests;
-			productReference = 3665DFCD1C0DF02500647BB8 /* AppleBotsTestUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,10 +160,6 @@
 						CreatedOnToolsVersion = 7.1.1;
 					};
 					3665DFC11C0DF02500647BB8 = {
-						CreatedOnToolsVersion = 7.1.1;
-						TestTargetID = 3665DFAD1C0DF02500647BB8;
-					};
-					3665DFCC1C0DF02500647BB8 = {
 						CreatedOnToolsVersion = 7.1.1;
 						TestTargetID = 3665DFAD1C0DF02500647BB8;
 					};
@@ -219,7 +180,6 @@
 			targets = (
 				3665DFAD1C0DF02500647BB8 /* AppleBotsTest */,
 				3665DFC11C0DF02500647BB8 /* AppleBotsTestTests */,
-				3665DFCC1C0DF02500647BB8 /* AppleBotsTestUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -236,13 +196,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		3665DFC01C0DF02500647BB8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3665DFCB1C0DF02500647BB8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -269,14 +222,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3665DFC91C0DF02500647BB8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3665DFD21C0DF02500647BB8 /* AppleBotsTestUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -284,11 +229,6 @@
 			isa = PBXTargetDependency;
 			target = 3665DFAD1C0DF02500647BB8 /* AppleBotsTest */;
 			targetProxy = 3665DFC31C0DF02500647BB8 /* PBXContainerItemProxy */;
-		};
-		3665DFCF1C0DF02500647BB8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3665DFAD1C0DF02500647BB8 /* AppleBotsTest */;
-			targetProxy = 3665DFCE1C0DF02500647BB8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -441,30 +381,6 @@
 			};
 			name = Release;
 		};
-		3665DFDD1C0DF02500647BB8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = AppleBotsTestUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tamir.AppleBotsTestUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = AppleBotsTest;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		3665DFDE1C0DF02500647BB8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = AppleBotsTestUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tamir.AppleBotsTestUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = AppleBotsTest;
-				USES_XCTRUNNER = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -490,14 +406,6 @@
 			buildConfigurations = (
 				3665DFDA1C0DF02500647BB8 /* Debug */,
 				3665DFDB1C0DF02500647BB8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		3665DFDC1C0DF02500647BB8 /* Build configuration list for PBXNativeTarget "AppleBotsTestUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3665DFDD1C0DF02500647BB8 /* Debug */,
-				3665DFDE1C0DF02500647BB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
